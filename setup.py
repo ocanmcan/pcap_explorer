@@ -1,14 +1,5 @@
 from setuptools import find_packages, setup
 
-with open("./README.md", "r") as f:
-    long_description = f.read()
-
-with open("./requirements.txt", "r") as reqs:
-    deps = reqs.read().splitlines()
-
-with open("./VERSION.txt", "r") as ver:
-    version = ver.read()
-
 setup(
     name="lpw",
     version=version,
